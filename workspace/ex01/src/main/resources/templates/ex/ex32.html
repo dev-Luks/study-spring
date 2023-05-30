@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex32</title>
+</head>
+<body>
+    <form action="/ex/ex32" method="post">
+        <span>국어: <input type="text" name="kor"></span>
+        <span>수학: <input type="text" name="math"></span>
+        <span>영어: <input type="text" name="eng"></span>
+        <button type="submit">제출하기</button>
+    </form>
+
+    <div>
+        <span>총점: <p th:text="${total}"></p></span>
+        <span>평균: <p th:text="${avg}"></p></span>
+    </div>
+
+</body>
+</html>

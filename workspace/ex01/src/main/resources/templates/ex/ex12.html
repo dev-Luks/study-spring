@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleafg.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>이름</td>
+        <td>나이</td>
+    </tr>
+    <tr>
+        <td th:text = "${param.name}"></td>
+        <td th:text = "${param.age}"></td>
+    </tr>
+</table>
+</body>
+</html>
